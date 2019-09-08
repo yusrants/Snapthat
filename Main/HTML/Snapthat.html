@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Snapthat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/Main.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<div class="containermain">
+  <div class="row">
+      <img class=snapthat src="../images/logo_horizontal.svg">
+      <div class=col>
+  
+<button type="button" class="btn btn-warning">Sign Up or Sign In</button>
+<button type="button" class="btn btn-light2">Support us</button> 
+<button type="button" class="btn btn-light2">Give Feedback</button>
+</div>
+  </div>
+  
+  <div class="row2">
+    <div class= col-6>
+      <h1> Find your favorite dress </br> with just an image </h1>
+      <h2> Search the exact clothing item you </br> want to buy</h2>
+      <div class=cam>
+<label class="custom-file-upload">
+    <input type="file"/>
+    uploashhssd
+    uploadhsahhah
+    uploadhdahhah
+    upload
+</label> <p id=dash> ---------------- </p>
+</div> 
+ </div>
+ <div class=col-6>
+  
+    space for images
+  
+</div>
+</div>
+<div class=row2>
+<div class=col>
+<h1> Search your favorite look</h1>
+ <h3> Simply drag and drop these images to the box on the right</h3>
+ 	
+ <div class= images>	<img src="../images/Capture.png"> </div>
+	<div class= images><img src="../images/Capture2.png"> </div>
+	<div class= images><img src="../images/Capture3.png"> </div>
+	<div class= images><img src="../images/Capture5.png"> </div>
+	<div class= images> <img src="../images/Capture6.png"> </div>
+	
+<div class=arrow> <img src="../images/arrow.png"> </div>
+	<div class=drop>
+
+<form action="upload.php" method="POST">
+  <input type="file" multiple>
+  <p>Drag and drop the style that you want</p>
+  <button type="submit">Upload</button>
+</form>
+</div>
+
+		
+
+
+</div>
+<div class=containermain>
+<div class=row2>
+	<div class=col>
+		<h1> Discover your style</h1>
+ <h2> Find clothes from your favorite </br>brands all in one place </h2>
+ <a href="Explore.html" type="button" class="btn btn-primary">Explore Brands </a>
+	</div>
+	<div class=col>
+		<button type="button" class="btn btn-outline-secondary">Nishat Linen</button>
+	<button type="button" class="btn btn-outline-secondary">Baroque</button>
+     <button type="button" class="btn btn-outline-secondary">Zeen Woman</button>
+
+	 <button type="button" class="btn btn-outline-secondary">J Dot</button> 
+
+	 <button type="button" class="btn btn-outline-secondary">Oaks</button>
+
+	<button type="button" class="btn btn-outline-secondary"> Sana Safinaz</button>
+
+	 <button type="button" class="btn btn-outline-secondary">Maria B.</button> 
+
+ <button type="button" class="btn btn-outline-secondary"> Lime Light</button>
+
+	<button type="button" class="btn btn-outline-secondary">Khaadi</button> 
+
+	 <button type="button" class="btn btn-outline-secondary">Generation</button> 
+
+	<button type="button" class="btn btn-outline-secondary">Ego</button> 
+	<button class="btn btn-danger"> </button> 
+</div>
+</div>
+</div>
+
+
+<div class=containermain>
+<div class=row2>
+	<div class=col>
+	<h2> Send your thoughts, we would love to hear from you. </h2>
+	<button type="button" class="btn btn-warning2">Give Feedback</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class=row3>
+
+	<div class=col-8>
+		<button type="button" class="btn btn-light">Our Story</button>
+<button type="button" class="btn btn-light">Disover</button>
+<button type="button" class="btn btn-light">How it works!</button> 
+		<button type="button" class="btn btn-light">Give Feedback</button>
+<button type="button" class="btn btn-light">Support us</button>
+
+<button type="button" class="btn btn-light">Partner with us</button>
+<button type="button" class="btn btn-light">Careers - We're hiring!</button>
+<p class= foot> c 2019. Crafted with <img class=heart src="../images/heart.png"> by Team Snapthat </p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+  $('form input').change(function () {
+    $('form p').text(this.files.length + " file(s) selected");
+  });
+});
+</script>
+</body>
+</html>
